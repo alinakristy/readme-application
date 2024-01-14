@@ -1,13 +1,13 @@
 {
   "name": "readme-application",
   "version": "1.0.0",
-  "description": "",
+  "description": "readme generator comand line app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "alina.cristi12@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^6.3.1"
   }
