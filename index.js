@@ -23,15 +23,11 @@ const questions = [
         type: "input",
         name: "instalation",
         message: "Write a project instalation steps(coma-separated): ",
-        transformer: (input)=> 
-        input.split(",").map(element=>element.trim())
     },
     {
         type: "input",
         name: "usageInformation",
         message: "Write usage steps(coma-separated): ",
-        transformer: (input)=> 
-        input.split(",").map(element=>element.trim())
     },
     {
         type: "list",
@@ -51,6 +47,7 @@ const questions = [
         type: "input",
         name: "tests",
         message: "How to run tests: ",
+        default: 'N/A',
     },
     {
         type: "input",
