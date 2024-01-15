@@ -2,6 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Demo Video
+<!-- https://stackoverflow.com/questions/46273751/how-can-i-add-a-video-in-markdown -->
+<video width="640" height="480" controls>
+  <source src="./assets/video-demo.mp4" type="video/mp4">
+</video>
+
 ## Description
 This project is a command-line application that generates a README.md file based on user input. When a user is prompted for information about the application repository then is generate the content for the README.md file. The generated markdown includes the title, description, table of contents, installation, usage, features, dependencies, tests, contributing, questions and license.
 
