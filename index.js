@@ -34,7 +34,7 @@ const questions = [
         name: "license",
         message: "Choose the license: ",
         //https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633#how-to-apply-a-license-to-your-project
-        choices: ['MIT','Apache-2.0','GPL-3.0','BSD-2-Clause','BSD-3-Clause','BSD-4-Clause','none'],   
+        choices: ['MIT','Apache-2.0','GPL-3.0','BSD-2-Clause','BSD-3-Clause','none'],   
         default: 'MIT'
     },
     {
